@@ -17,12 +17,6 @@
   margin: 20px 0px;
 }
 
-.left-links,
-.right-links {
-  display: flex;
-  align-items: center;
-}
-
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
