@@ -2,6 +2,24 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.section-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 img {
   width: 100px;
   height: 100px;
