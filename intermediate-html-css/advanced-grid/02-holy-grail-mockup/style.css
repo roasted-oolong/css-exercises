@@ -5,8 +5,7 @@
 
 .container {
   display: grid;
-  grid-template: auto auto 5fr auto / 1fr 3fr;
-  grid-auto-rows: minmax(min-content, max-content);
+  grid-template: auto auto 3fr auto / 1fr 3fr;
   text-align: center;
 }
 
@@ -67,7 +66,11 @@
   grid-column: 2 / -1;
 }
 
-.nav ul li {
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 5rem;
   font-size: 16px;
   text-transform: uppercase;
 }
