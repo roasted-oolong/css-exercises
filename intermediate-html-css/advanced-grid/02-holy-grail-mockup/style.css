@@ -4,6 +4,7 @@
 }
 
 .container {
+  display: grid;
   text-align: center;
 }
 
@@ -16,11 +17,16 @@
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #393f4d;
 }
 
 .menu ul,
 .menu li {
+  display: flex;
+  gap: 5rem;
   font-size: 16px;
 }
 
