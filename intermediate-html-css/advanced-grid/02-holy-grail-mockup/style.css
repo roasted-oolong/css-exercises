@@ -35,11 +35,17 @@
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
   background-color: #C50208;
+  border: white 2px solid;
   grid-row: 2 / 4;
 }
 
 .sidebar .photo {
+  flex: 1;
   background-color: white;
   color: black;
   font-size: 12px;
@@ -49,6 +55,7 @@
 
 
 .sidebar .side-content {
+  flex: 1;
   background-color: white;
   color: black;
   font-size: 16px;
